@@ -1,0 +1,9 @@
+class LaneDetection:
+    def __init__(self, name):
+        self.name = name
+
+    def myname(self):
+        print('Hello My name is ' + self.name):
+
+koki = LaneDetection('koki')
+print(koki.myname)
